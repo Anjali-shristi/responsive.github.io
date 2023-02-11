@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Etsy with bootstrap</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/owntry.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<!-- header part starts -->
+<nav class="navbar navbar-bottom">
+  <div class="container-fluid row">
+    <div class="navbar-header">     
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand col-lg-1" href="#">Etsy</a>
+	</div>
+	<div class="collapse navbar-collapse" id="myNavbar">
+		<ul class="nav navbar-right col-lg-11">
+			<li class="col-lg-10">
+				<form>
+					<div class="input-group row">
+						<input type="text" class="form-control input-lg dropdown-toggle"  data-toggle="dropdown" placeholder="Search for anything">
+						<ul  class="dropdown-menu col-xs-12" role="menu">
+							<li><a href="#"><strong>Popular Right Now</strong></a></li>
+							<li><a href="#">when there are nine</a></li>
+							<li><a href="#">succulent christmas tree</a></li>
+							<li><a href="#">halloween lawn</a></li>
+							<li><a href="#">fendi clothing</a></li>
+							<li><a href="#">dissent collar</a></li>
+							<li><a href="#">cancer awareness svg</a></li>
+							<li><a href="#">app icons</a></li>
+							<li><a href="#">tpwk prints</a></li>
+							<li><a href="#">jesus 2020</a></li>
+						</ul>
+						<div class="input-group-btn">
+						
+							<button class="btn btn-default btn-lg" type="submit"  ><span class="glyphicon glyphicon-search"></span></button>
+						</div>
+					</div>
+				</form>
+			</li>
+			<li class="col-lg-1"><button type="button" class="btn btn-default signin" data-toggle="modal" data-target="#myModal"> Sign in</button>
+			<!-- modal part starts -->
+			<div class="modal fade" id="myModal" role="dialog">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h2>Sign in
+							<button type="button" class="btn btn-default pull-right">Register</button>
+							</h2>
+						</div>
+					
+					<div class="modal-body">
+						<div class="form-group">
+							<label for="usr">Email address</label>
+							<input type="text" class="form-control input-lg" id="usr">
+						</div>
+						<div class="form-group">
+							<label for="usr">Password</label>
+							<input type="password" class="form-control input-lg" id="pwd">
+						</div>
+						<div class="checkbox">
+							<label><input type="checkbox" value="">Stay signed in</label>
+							<a href="#" class="pull-right">Forget your password</a>
+						</div>
+					</div>	
+					<div class="modal-body1 text-center">
+						<ul>
+						
+							<li><input type="submit" class="btn btn-default btn-lg" style="width:90%;color:white;background-color:black;border-radius:30px" value="Sign in"></li>
+							<li><a href="#">Trouble signing in?</a></li>
+							<li><h4>OR</h4></li>
+						</ul>
+					</div>
+					<div class="modal-body2 text-center">
+						<ul>
+							<li><button type="submit" class="btn btn-default btn-lg fa fa-google-plus" style="width:90%;border-radius:30px;color:red;font-size:24px;"><a href="#">  Continue with Google</a></button>
+							</li>
+							<li>
+							<button type="submit" class="btn btn-default btn-lg fa fa-facebook-square" style="width:90%;border-radius:30px;color:blue;font-size:24px"><a href="#">  Continue with Facebook</a></button>
+							</li>
+							<li>
+							<button type="submit" class="btn btn-default btn-lg fab fa-apple" style="width:90%;border-radius:30px;font-size:24px"><a href="#">     Continue with Apple</a></button>
+							</li>
+						
+							<li><p>By clicking Sign in or Continue with Google, Facebook, or Apple, you agree to Etsy's <a href="#" style="font-size:14px;text-decoration:underline">Terms of Use</a> and <a href="#" style="font-size:14px;text-decoration:underline">   Privacy Policy</a> .Etsy may send you communications; you may change your preferences in your account settings. We'll never post without your permission.</p></li>
+						</ul>
+					</div>
+					
+				</div>
+				</div>
+				</div>
+				<!-- modal part ends -->
+			</li>
+			<li class="col-lg-1"><a href="#" title="cart" class="nav navbar-nav navbar-right"><span class="glyphicon glyphicon-shopping-cart"></span>
+				
+			
+			</a></li>
+		</ul>
+	
+	
+	<!-- modal -->
+	
+</div>
+
+   
+</nav>
+
+
+<!--header part ends-->
+
+<!-- menu part starts-->
+<div class="menu container-fluid text-center row">
+	<h2 class="menu-header">Find things you'll love. Support independent sellers. Only on Etsy.</h2>
+	<h3><strong>Everyday finds</strong></h3>
+	<div class="row images">
+		<div class="col-md-6 row">
+			<div class="col-xs-4">
+				<img src="images/face.jpg" class="img-circle" alt="face mask" width="100%">
+				<br>
+				<p class="glyphicon">Face masks</p>    <a href="#" class="glyphicon glyphicon-arrow-right"></a>
+				
+			</div>	
+			<div class="col-xs-4">
+				<img src="images/a.jpg" class="img-circle" alt="face mask" width="100%">
+				<br>
+				<p class="glyphicon">Wall decor</p>    <a href="#" class="glyphicon glyphicon-arrow-right"></a>
+		      
+			</div>	
+			<div class="col-xs-4 gift1">
+				<img src="images/gift.jpg" class="img-circle" alt="face mask" width="100%">
+				<br>
+				<p class="glyphicon">Gift ideas</p>    <a href="#" class="glyphicon glyphicon-arrow-right"></a>
+		             
+			</div>
+		</div>
+		
+		<div class="col-md-6 row">
+			<div class="col-xs-4">
+				<img src="images/outdoor.jpg" class="img-circle" alt="face mask" width="100%">
+				<br>	 
+				<p class="glyphicon">Outdoor</p>
+				<a href="#" class="glyphicon glyphicon-arrow-right"></a>
+						 
+			</div>	
+			<div class="col-xs-4">
+				<img src="images/self-care.jpg" class="img-circle" alt="face mask" width="100%">
+				<br>
+				<p class="glyphicon">Self-care</p>     
+				<a href="#" class="glyphicon glyphicon-arrow-right"></a>
+			</div>	
+			<div class="col-xs-4">
+				<img src="images/craft.jpg" class="img-circle" alt="face mask" width="100%">
+				<br>
+				<p class="glyphicon">Craft kits</p> <a href="#" class="glyphicon glyphicon-arrow-right" width="50%";></a>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- menu part ends -->
+<!-- unique part starts-->
+<div class="unique container-fluid text-center">
+	<div class="row">
+		<div class="col-sm-4">
+			<h4 class="text">
+			<span class="glyphicon glyphicon-ok">      </span>  Unique everything</h4>
+			<p class="unique1">We have millions of one-of-a-kind items, so you can find whatever you need (or really, really want).</p>
+		<br>	
+		</div>
+		
+		<div class="col-sm-4">
+			<h4 class="text">
+			<span class="glyphicon glyphicon-ok"></span>  Independent sellers</h4> 
+			<p class="unique1">Buy directly from someone who put their heart and soul into making something special.</p>
+		<br>
+		</div>
+		
+		<div class="col-sm-4">
+			<h4 class="text"> <span class="glyphicon glyphicon-ok"></span>  Secure shopping</h4>
+			<p class="unique1">We use best-in-class technology to protect your transactions.</p>
+        <br>
+		</div>
+		
+	</div>
+</div> 
+<!-- unique part ends-->
+
+<!-- passion part starts-->
+<div class="passion container-fluid">
+	<h4 class="text-left"><strong>More from PassionPursuit</strong>  Visit shop</h4>
+	
+	<div class="row">
+		<div class="col-sm-6 row">
+			<div class="col-xs-4 b">
+				<a href="#"><img src="images/whitetshirt.jpg" class="img-square image" alt="image" width="100%"  /></a>
+				<p><strong>USD 35.00</strong></p>
+				<a class="off">USD 43.75</a>
+				<a href="#">(20% off)</a>
+			</div>
+			<div class="col-xs-4 b">
+				<a href="#"><img src="images/grey.jpg" class="img-square image" alt="image" width="100%" /></a>
+				<p><strong>USD 35.00</strong></p>
+				<a class="off">USD 43.75</a>
+				<a href="#">(20% off)</a>
+			</div>
+			<div class="col-xs-4 b">
+				<a href="#"><img src="images/ruth.jpg" class="img-square image" alt="image" width="100%" /></a>
+				<p><strong>USD 35.00</strong></p>
+				<a class="off">USD 43.75</a>
+				<a href="#">(20% off)</a>
+			</div>
+		</div>
+		<div class="col-sm-6">
+			<div class="col-xs-4 b">
+				<a href="#"><img src="images/ruth.jpg" class="img-square image" alt="image" width="100%" /></a>
+				<p><strong>USD 35.00</strong></p>
+				<a class="off">USD 43.75</a>
+				<a href="#">(20% off)</a>
+			</div>
+			<div class="col-xs-4 b">
+				<a href="#"><img src="images/grey1.jpg" class="img-square image" alt="image" width="100%" /></a>
+				<p><strong>USD 35.00</strong></p>
+				<a class="off">USD 43.75</a>
+				<a href="#">(20% off)</a>
+			</div>
+			<div class="col-xs-4 b">
+				<a href="#"><img src="images/grey2.jpg" class="img-square image" alt="image" width="100%" /></a>
+				<p><strong>USD 35.00</strong></p>
+				<a class="off">USD 43.75</a>
+				<a href="#">(20% off)</a>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- passion part ends-->
+<!-- popular part starts-->
+<div class="popular container-fluid">
+	<h2 class="text-center"><strong>Popular right now</strong></h2>
+	<br>
+	<div class="row">
+		<div class="col-sm-6 row">
+			<div class="col-xs-4 a">
+				<a href="#"><img src="images/ruth.jpg" class="img-square image" alt="image" width="100%"  /></a>
+				<a href="#" class="shirt">Ruth Bader Ginsburg Shirt |..</a>
+				<p>PassionPursuit</p>
+				<a href="#">
+					<span class="star glyphicon glyphicon-star"></span>
+					<span class="star glyphicon glyphicon-star"></span>
+					<span class="star glyphicon glyphicon-star"></span>
+					<span class="star glyphicon glyphicon-star"></span>
+					<span class="star glyphicon glyphicon-star">(1084)</span>
+				
+				</a>
+				<p><strong>USD 35.00</strong></p>
+				<a class="off">USD 43.75</a>
+				<a href="#">(20% off)</a>
+			</div>
+			<div class="col-xs-4 a">
+				<a href="#"><img src="images/mystical.jpg" class="img-square image" alt="image" width="100%"  /></a>
+				<a href="#" class="shirt">Mystical Crow Halloween St..</a>
+				<p>ScloGlassStudio</p>
+				<a href="#">
+					<span class="star glyphicon glyphicon-star"></span>
+					<span class="star glyphicon glyphicon-star"></span>
+					<span class="star glyphicon glyphicon-star"></span>
+					<span class="star glyphicon glyphicon-star"></span>
+					<span class="star glyphicon glyphicon-star">(250)</span>
+				
+				</a>
+				<p><strong>USD 44.67</strong></p>
+				<a class="off">USD 52.55</a>
+				<a href="#">(15% off)</a>
+			</div>
+			<div class="col-xs-4 a">
+				<a href="#"><img src="images/christmas.jpg" class="img-square image" alt="image" width="100%"  /></a>
+				<a href="#" class="shirt">2020 Christmas ornament s...</a>
+				<p>azdigitaldesigns</p>
+				<a href="#">
+					<span class="star glyphicon glyphicon-star"></span>
+					<span class="star glyphicon glyphicon-star"></span>
+					<span class="star glyphicon glyphicon-star"></span>
+					<span class="star glyphicon glyphicon-star"></span>
+					<span class="star glyphicon glyphicon-star">(179)</span>
+				
+				</a>
+				<p><strong>USD 1.59</strong></p>
+			</div>
+			
+		</div>
+		<div class="col-sm-6">
+			<div class="col-xs-4 a">
+				<a href="#"><img src="images/bad.jpg" class="img-square image" alt="image" width="100%"  /></a>
+				<a href="#"class="shirt">Bad Beach Theme Fine Art..</a>
+				<p>LudwigVanBacon</p>
+				<a href="#">
+					<span class="star glyphicon glyphicon-star"></span>
+					<span class="star glyphicon glyphicon-star"></span>
+					<span class="star glyphicon glyphicon-star"></span>
+					<span class="star glyphicon glyphicon-star"></span>
+					<span class="star glyphicon glyphicon-star">(252)</span>
+				
+				</a>
+				<p><strong>USD 60.00</strong></p>
+			</div>
+			<div class="col-xs-4 a">
+				<a href="#"><img src="images/print.jpg" class="img-square image" alt="image" width="100%"  /></a>
+				<a href="#" class="shirt">COLORING BOOKS - multip..</a>
+				<p>Petitedominance</p>
+				<p><strong>USD 22.01</strong></p>
+			</div>
+			<div class="col-xs-4 a">
+				<a href="#"><img src="images/bat.jpg" class="img-square image" alt="image" width="100%"  /></a>
+				<a href="#" class="shirt">Bat crocet pattern amigu..</a>
+				<p>SassarooDesigns</p>
+				<a href="#">
+					<span class=" star glyphicon glyphicon-star"></span>
+					<span class="star glyphicon glyphicon-star"></span>
+					<span class="star glyphicon glyphicon-star"></span>
+					<span class="star glyphicon glyphicon-star"></span>
+					<span class="star glyphicon glyphicon-star">(222)</span>
+				
+				</a>
+				<p><strong>USD 4.34</strong></p>
+				<button type="button" class="btn btn-default btn-sm">Best Seller</button>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- popular part ends-->
+
+<!-- what is etsy part starts -->
+<div class="container-fluid text-center etsy">
+	<h1 class=>What is Etsy?</h1>
+	<a href="#">Read our wonderfully weird story</a>
+	<div class="container">
+		<div class="row etsy1">
+			<div class="col-sm-4">
+				<h1>A one-of-a-kind community</h1>
+				<p>Etsy is a global online marketplace, where people come together to make, sell, buy, and collect unique items.</p>
+			</div>
+			<div class="col-sm-4">
+			<h1>Support independent creators</h1>
+			<p>There’s no Etsy warehouse – just millions of people selling the things they love. We make the whole process easy, helping you connect directly with makers to find something extraordinary.</p>
+			</div>
+			<div class="col-sm-4">
+			<h1>Peace of mind</h1>
+			<p>Your privacy is the highest priority of our dedicated team. And if you ever need assistance, we are always ready to step in for support.</p>
+			</div>
+			<div class="col-xs-12">
+				<h5>Have a question? Well, we’ve got some answers.</h5>
+				<a href="#" class="goto"><strong><button type="button" class="btn btn-default btn-md">
+				Go to Help Center</strong>
+				</button>
+				</a>
+			</div>
+		</div>
+	</div>
+	
+	
+</div>
+<!-- what is etsy part ends --> 
+<!--subscribe part starts-->
+<div class="container-fluid text-center subscribe">
+	<div class="yes">
+	<h4>Yes! Send me exclusive offers, unique gift ideas, and personalized tips for shopping and selling on Etsy.</h4>
+<form class="row">
+	<div class="col-sm-4">
+	</div>
+	<div class="input-group col-sm-4">
+		<input type="text" class="form-control input-lg subs " placeholder="Enter your Email">
+		<div class="input-group-btn">
+		  <button class="btn btn-default btn-lg" type="submit">
+			<strong>Subscribe</strong>
+		  </button>
+		</div>
+	</div>
+	<div class="col-sm-4">
+	</div>
+</form>
+	</div>
+</div>
+
+<!--subscribe part ends-->
+<!--shop  part starts-->
+<div class="container-fluid">
+	<div class="row foot text-left">
+		<ul class="col-sm-3">
+				<li><h4><strong>Shop</strong></h4></li>
+				<li><a href="#">Gift cards</a></li>
+				<li><a href="#">Etsy blog</a></li>
+		</ul>
+		<ul class="col-sm-3">
+				<li><h4><strong>Sell</strong></h4></li>
+				<li><a href="#">Sell on Esty</a></li>
+				<li><a href="#">Teams</a></li>
+				<li><a href="#">Forums</a></li>
+				<li><a href="#">Affiliates</a></li>
+		</ul>
+		<ul class="col-sm-3">
+				<li><h4><strong>About</strong></h4></li>
+				<li><a href="#">Etsy,Inc.</a></li>
+				<li><a href="#">Policies</a></li>
+				<li><a href="#">Invetors</a></li>
+				<li><a href="#">Careers</a></li>
+				<li><a href="#">Press</a></li>
+				<li><a href="#">Impact</a></li>
+				<li><a href="#">Legal imprint</a></li>
+		</ul>
+		<ul class="col-sm-3">
+			<li><h4><strong>Help</strong></h4></li>
+			<li><a href="#">Help Center</a></li>
+			<li><a href="#">Privacy Settings</a></li>
+			<br>
+			<li><button type="button" class='fab fa-etsy btn-sm' style="font-size:16px;color:white;border-radius:12px">
+					  Download the Etsy App
+				</button>
+			</li>
+			<li>
+				<ul class="icon">
+					<li><a href="#"><i class='fab fa-instagram' style='font-size:26px;color:white'></i></a></li>
+					<li><a href="#"><i class='fab fa-facebook' style='font-size:26px;color:white'></i></a></li>
+					<li><a href="#"><i class='fab fa-pinterest' style='font-size:26px;color:white'></i></a></li>
+					<li><a href="#"><i class='fab fa-twitter' style='font-size:26px;color:white'></i></a></li>
+					<li><a href="#"><i class='fab fa-youtube' style='font-size:26px;color:white'></i></a></li>
+				</ul>
+			</li>
+		</ul>
+			
+	</div>
+</div>
+<!--shop  part ends-->
+<!--footer  part starts-->
+<div class="container-fluid row nepal">
+		<div class="col-sm-3 row">
+			<div class="col-xs-2">
+			</div>
+			<ul class="btn btn-default english btn-xs col-xs-8" data-toggle="modal" data-target="#myModal1">
+					<li><i class='fas fa-globe-asia' style='font-size:26px;color:white'></i></li>
+					<li><h5>Nepal</h5></li>
+					<li><h5>|</h5></li>
+					<li><h5>English(US)</h5></li>
+					<li><h5>|</h5></li>
+					<li><h5>$(USD)</h5></li>
+			</ul>
+			
+			<!-- modal part starts -->
+			<div class="modal fade" id="myModal1" role="dialog">
+				<div class="modal-dialog" >
+					<div class="modal-content">
+						<div class="modal-header">
+							<h2>Update your settings</h2>
+							<h5>Set where you live, what language you speak, and the currency you use. <a href="#">Learn more.</a></h5>
+						</div>
+						<div class="modal-body">
+							<h4>Region</h4>
+							<div class="dropdown" >
+								<button type="button" class="btn btn-default btn-lg" style="width:100%;background-color:white" data-toggle="dropdown" >Nepal
+								<span class="caret"></span></button>
+								<ul class="dropdown-menu"   role="menu" style="width:100%">
+									
+									<li><a href="#">Canada</a></li>
+									<li><a href="#">Australia</a></li>
+									<li><a href="#">New Zealand</a></li>
+									<li><a href="#">Germany</a></li>
+									<li><a href="#">Japan
+									</a></li>
+									<li><a href="#">China</a></li>
+									<li><a href="#">London</a></li>
+									<li><a href="#">Thailand</a></li>
+									<li><a href="#">France</a></li>
+									<li><a href="#">Mexico</a></li>
+									<li><a href="#">Korea</a></li>
+								</ul>
+							</div>
+						
+						<h4  data-spy="scroll" data-target="#btn " data-offset="50">Language</h4>
+							<div class="dropdown">
+								<button type="button" class="btn btn-default btn-lg" style="width:100%;background-color:white" data-toggle="dropdown" id="btn">English(US)
+								<span class="caret"></span></button>
+								<ul class="dropdown-menu"  role="menu" style="width:100%">
+									
+									<li><a href="#">Deutsch</a></li>
+									<li><a href="#">English(UK)</a></li>
+									<li><a href="#">Italiano</a></li>
+									<li><a href="#">Polski</a></li>
+									<li><a href="#">Nederlands
+									</a></li>
+									<li><a href="#">Chinese</a></li>
+									<li><a href="#">Japanese</a></li>
+								</ul>
+							</div>
+						
+						<h4>Currency</h4>
+							<div class="dropdown">
+								<button type="button" class="btn btn-default btn-lg" style="width:100%;background-color:white" data-toggle="dropdown">$ United States Dollar(USD)
+								<span class="caret"></span></button>
+								<ul class="dropdown-menu"  role="menu" style="width:100%">
+									
+									<li><a href="#">Japanese Yen (JPY)</a></li>
+									<li><a href="#">$ New Zealand Dollar (NZD)</a></li>
+									<li><a href="#">$ Australian Dollar (AUD)</a></li>
+									<li><a href="#">$ Singapore Dollar (SGD)</a></li>
+									<li><a href="#">Nederlands
+									</a></li>
+									<li><a href="#">$ Mexicon Peso(MXN) </a></li>
+									<li><a href="#">Euro (EUR)</a></li>
+								</ul>
+							</div>
+							<div class="modal-footer">
+								 <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+								  <button type="button" class="btn btn-default" style="background-color:black;color:white" data-dismiss="modal">Save</button>
+							</div>
+						
+						
+						</div>
+						
+						
+					</div>
+				</div>
+			</div>
+			
+			<!-- modal part ends -->
+			<div class="col-xs-2">
+			</div>
+		</div>
+		<div class="col-sm-4">
+		</div>
+		<div class="col-sm-5 etsyinc row">
+			<ul class="col-xs-12">
+					<li><a href="#"><span class="glyphicon glyphicon-copyright-mark" style="color:white"> 2020 Etsy,Inc.</span></a></li>
+					<li><a href="#">Terms of Use</a></li>
+					<li><a href="#">Privacy</a></li>
+					<li><a href="#">Interest-based ads</a></li>
+			</ul>
+		</div>
+	</div>
+<!--footer  part ends-->
+</body>
+</html>

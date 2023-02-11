@@ -1,0 +1,359 @@
+/* Global CSS declaration starts */
+*{
+	padding:0px;
+	margin:0px;
+}
+html{
+	margin:0px;
+	padding:0px;
+}
+body{
+	width:100%;
+	height:100%;
+	
+}
+
+/* Global CSS declaration ends */		
+/* header part starts */
+.navbar{
+	padding:25px 20px 0px 20px;
+	background-color:white;
+	
+}
+.navbar-brand{
+	color:#f5915f !important;
+	font-size:40px;
+}
+.icon-bar{
+	background-color:orange !important;
+}
+.dropdown-menu{
+	font-size:20px;
+}
+.signin{
+	color:black;
+	font-size:20px;
+	font-weight:bold;
+	border-radius:10px;
+}
+.signin:hover{
+	
+	background-color:#d1cfcb;
+}
+/* modal part starts */
+.signin .modal-dialog{
+	
+}
+.signin .modal-body1 ul li{
+	padding:5px;
+}
+
+.modal-body2 a{
+	font-size:20px;
+	background-color:white;
+	box-shadow:2px solid black;
+	color:black;
+	text-decoration:none;
+}
+.modal-body2 ul li{
+	padding:10px;
+
+}
+.modal-body2 .btn-default{
+	background-color:white;
+}
+.forget{
+	text-align:right !important;
+}
+/* modal part starts */
+
+/* header part ends */
+/*menu part starts */
+.menu{
+	background-color:#ddebe3;
+	
+}
+.menu-header{
+	padding:15px 12px 12px 12px;
+	font-family: "Guardian-EgypTT",serif;
+
+    letter-spacing: 0.5px;
+}
+.menu h3{
+	font-family:times new roman;
+    font-size:22px;
+}
+.images{
+	padding:0px 36px;
+	margin-bottom:18px;
+}
+.glyphicon{
+	color:black;
+	font-size:16px;
+	line-height:18px;
+	
+}
+.images a:hover{
+	color:white;
+	transition:0.3s;
+	text-decoration:none;
+}
+.gift1{
+padding-bottom:18px;
+}
+/*menu part ends*/
+/*unique part starts*/
+.unique{
+	padding:30px;
+	
+}
+.glyphicon-ok{
+	color:darkorange ;
+}
+.text{
+	color:black !important;
+}
+.unique1{
+	font-size:16px;
+}
+/*unique part ends*/
+/*passion part starts*/
+.passion{
+	padding:0px 36px;
+	width:100%;
+	height:100%;
+}
+.b{
+	padding:8px;
+	
+}
+.passion p{
+	color:black;
+	font-weight:bold;
+	font-size:16px;
+}
+.passion .off{
+	text-decoration:line-through;
+	color:green;
+	font-size:12px;
+}
+.passion a{
+	color:green;
+	font-size:12px;
+}
+.passion .image:hover{ 
+	box-shadow:2px 2px 10px grey;
+	transition:0.3s;
+}
+/*passion part ends*/
+/*popular part starts*/
+.popular{
+	padding:18px 36px;
+	width:100%;
+	height:100%;
+	
+}
+.popular .btn{
+	background-color:#bccfbf;
+	font-size:14px;
+}
+
+.popular .image:hover {
+ box-shadow:2px 2px 10px grey;
+transition:0.3s;
+}
+.a{
+	padding:8px;
+}
+.popular p{
+	color:black;
+	font-size:14px;
+}
+.popular .off{
+	text-decoration:line-through;
+	color:green;
+	font-size:12px;
+}
+.popular a{
+	color:green;
+	font-size:12px;
+}
+.popular .shirt{
+	color:grey;
+	font-size:14px;
+}
+.star{
+	width:15px;
+}
+/*popular part ends*/
+
+/* what is etsy part starts */
+.etsy{
+	background-color:#fdebd2;
+	padding:36px;
+}
+.etsy h1{
+	font-size:40px;
+}
+.etsy a{
+	color:black;
+	font-size:16px;
+	text-decoration:underline;
+}
+.etsy a:hover{
+	color:grey;
+}
+.etsy1{
+	padding:36px 18px 36px 18px;
+}
+.etsy1 h1{
+
+	font-family: "Guardian-EgypTT",serif;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+.etsy1 p{
+	font-family:Arial,sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+}
+.etsy1 h5{
+	font-family:Arial,sans-serif;
+	font-weight:bold;
+    font-size: 20px;
+    line-height: 24px;
+}
+.goto .btn{
+	background-color:#fdebd2;
+	border:2px solid black;
+	font-size:18px;
+}
+.goto .btn:hover{
+	box-shadow:2px 2px 10px black;
+    transition:0.3s;
+}
+/* what is etsy part ends */
+/* subscribe part starts */
+.subscribe{
+	background-color:#d7e6f5;
+	padding:36px 24px;
+}
+.subscribe h4{
+	font-family: "Graphik Webfont",-apple-system,"Helvetica Neue","Droid Sans",Arial,sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+
+}
+
+.subs{
+	border-radius:20px;
+}
+.subs:hover,.btn:hover{
+	
+	border:2px solid grey;
+}
+
+/* subscribe part ends */
+/* shop part starts */
+.foot{
+	background-color:#2f466c;
+	padding:36px 24px 24px 24px;
+	
+}
+
+.foot ul li{
+	list-style:none;
+	color:white;
+	line-height: 30px;
+	font-size:14px;
+}
+.fa-etsy{
+	background-color:#2f466c;
+	border: 1px solid white;
+	
+}
+.fa-etsy:hover{
+	background-color:#2f466c;
+	border: 2px solid white;
+}
+.icon{
+	display:flex;
+	padding:20px;
+	letter-spacing:20px;
+}
+.fa-instagram:hover,.fa-facebook:hover,.fa-pinterest:hover,.fa-twitter:hover,.fa-youtube:hover{
+    opacity: 0.7;
+}
+
+
+.foot ul li a{
+	color:white;
+}
+/* shop part ends */
+/*footer part starts */
+.nepal{
+	padding:18px 24px;
+	background-color:#232347;
+	line-height:40px;
+}
+/* modal part starts */
+.dropdown-toggle{
+	background-color:white !important;
+	display:none;
+}
+.modal-footer .btn{
+	border-radius:30px;
+	font-size:20px;
+	border:2px solid black;
+}
+/* modal part ends */
+.english{
+	background-color:#232347;
+	border-color:#232347;
+	list-style:none;
+	display:flex;
+	justify-content:space-around;
+	width:300px;
+	color:white;
+}
+.english:hover{
+	background-color:#4d6680;
+	border-radius:30px;
+	opacity:0.7;
+}
+
+	
+	
+
+.english h5{
+	font-weight:600;
+	
+}
+.etsyinc ul{
+	list-style:none;
+	display:flex;
+	justify-content:space-around;
+	color:white;
+}
+.etsyinc ul li a{
+	color:white;
+	text-decoration:underline;
+	font-size:14px;
+}
+/*footer part ends */
+@media only screen and (max-width:1140px){
+	.subscribe{
+		
+	
+	}
+	.yes{
+		
+		padding-left:24px;
+		padding-right:24px;
+	
+		
+	}
+}
+
